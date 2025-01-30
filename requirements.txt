@@ -17,3 +17,4 @@ alembic
 robotframework
 pyzmail36
 db-sqlite3
+pyodbc
