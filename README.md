@@ -1,4 +1,4 @@
-# 🧾 Invoice Processing & Validation System  
+# 🧾 SIPS (Smart Invoice Processing System)  
 **Automating invoice validation with OCR & AI-driven PO matching**  
 
 🚀 **Developed with love by Team DebugSquad ❤️**  
@@ -123,12 +123,25 @@ This will open the Streamlit UI in your browser.
 ## 📸 Screenshorts
 
 ### Login Page
+![Login](https://github.com/user-attachments/assets/b0dde8f4-f9b6-4b2c-a601-3651ee98c81b)
+
 ### Dashboard
+![Dashboard](https://github.com/user-attachments/assets/18d3d328-3548-440b-9de6-9131ece17f36)
+
 ### Upload Invoice
+![Upload Invoice](https://github.com/user-attachments/assets/9a3bf192-c6a5-41a3-b831-123102c986aa)
+
 ### Invoice Details
+![Invoice Details](https://github.com/user-attachments/assets/56ee1ed1-41bd-4c83-845f-04e7536b7013)
+
 ### Email Processing
+![Email Processing](https://github.com/user-attachments/assets/cfff48f3-4e3b-4554-9097-42bb8135e6a0)
+
 ### Purchase Order Database
+![PO DB](https://github.com/user-attachments/assets/812e43b5-cb70-4251-86a6-fa6ba9e4b942)
+
 ### Settings Page
+![Setting](https://github.com/user-attachments/assets/feff7897-cab1-4a36-ab0c-a467d15b1029)
 
 ## 🛠️ Troubleshootin
 
