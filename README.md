@@ -177,17 +177,17 @@ Feel free to contribute to this guide by submitting pull requests! 🚀
 
 ## 🛡️ Security & Best Practices
 
-✅ Use environment variables for storing credentials (.env file)
-✅ Do not hardcode sensitive information in source code
-✅ Implement logging & error handling for debugging
-✅ Restrict database access to specific IPs for security
+- ✅ Use environment variables for storing credentials (.env file)
+- ✅ Do not hardcode sensitive information in source code
+- ✅ Implement logging & error handling for debugging
+- ✅ Restrict database access to specific IPs for security
 
 ## 📢 Future Enhancements
 
-🔹 Full Angular Frontend
-🔹 REST API for integration with other systems
-🔹 AI-based fraud detection for invoice discrepancies
-🔹 Multi-user authentication & role-based access control
+- 🔹 Full Angular Frontend
+- 🔹 REST API for integration with other systems
+- 🔹 AI-based fraud detection for invoice discrepancies
+- 🔹 Multi-user authentication & role-based access control
 
 # ❤️ Made with Love by Team DebugSquad
 Our mission is to build scalable, production-ready automation solutions to streamline financial workflows.
