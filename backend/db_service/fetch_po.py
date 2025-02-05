@@ -1,6 +1,7 @@
-from db_connection import connect_db
+from db_service.db_connection import connect_db
 
 def fetch_po_details(po_number):
+    """Fetch purchase order details from the database."""
     try:
         conn = connect_db()
         if not conn:

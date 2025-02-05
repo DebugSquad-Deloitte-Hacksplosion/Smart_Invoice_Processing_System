@@ -1,13 +1,13 @@
 import imaplib
 import email
-from email.header import decode_header
 import os
 from datetime import datetime
 
 def fetch_invoice_email():
-    EMAIL_USER = "manojkprdev@gmail.com"
-    EMAIL_PASS = "oigvttknbrhxjfkc"
-    IMAP_SERVER = "imap.gmail.com"
+    """Fetch the latest invoice PDF from Gmail."""
+    EMAIL_USER = os.getenv("EMAIL_USER")
+    EMAIL_PASS = os.getenv("EMAIL_PASS")
+    IMAP_SERVER = os.getenv("IMAP_SERVER")
     INVOICE_FOLDER = "./invoices"
     os.makedirs(INVOICE_FOLDER, exist_ok=True)
 
@@ -47,4 +47,4 @@ def fetch_invoice_email():
         try:
             mail.logout()
         except:
-            pass                                                                                                                                    
+            pass
