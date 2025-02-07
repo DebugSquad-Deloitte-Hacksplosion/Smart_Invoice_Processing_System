@@ -16,12 +16,12 @@ The **Invoice Processing & Validation System** is a powerful automation solution
 ## 🛠️ Tech Stack  
 | Component           | Technology Used        |
 |--------------------|----------------------|
-| **Frontend**       | Streamlit (temporary), Angular (future) |
-| **Backend**        | Python (FastAPI, Flask in future) |
+| **Frontend**       | Angular JS |
+| **Backend**        | Python (FastAPI for APIs) |
 | **Database**       | Azure SQL Server |
-| **OCR Engine**     | Tesseract OCR |
-| **Automation**     | Email Processing (IMAP, SMTP) |
-| **Cloud**         | Azure (Future AWS compatibility) |
+| **OCR Engine**     | Google Document Ai |
+| **Automation**     | Email Processing (IMAP, SMTP), RPA Automation (Ui Path) |
+| **Cloud**         | Microsoft Azure Services |
 
 ---
 
