@@ -16,12 +16,12 @@ The **Invoice Processing & Validation System** is a powerful automation solution
 ## 🛠️ Tech Stack  
 | Component           | Technology Used        |
 |--------------------|----------------------|
-| **Frontend**       | Streamlit (temporary), Angular (future) |
-| **Backend**        | Python (FastAPI, Flask in future) |
+| **Frontend**       | Angular JS |
+| **Backend**        | Python (FastAPI for APIs) |
 | **Database**       | Azure SQL Server |
-| **OCR Engine**     | Tesseract OCR |
-| **Automation**     | Email Processing (IMAP, SMTP) |
-| **Cloud**         | Azure (Future AWS compatibility) |
+| **OCR Engine**     | Google Document Ai |
+| **Automation**     | Email Processing (IMAP, SMTP), RPA Automation (Ui Path) |
+| **Cloud**         | Microsoft Azure Services |
 
 ---
 
@@ -37,7 +37,6 @@ The **Invoice Processing & Validation System** is a powerful automation solution
 - 🌐 Full **Angular UI** integration  
 - 🤖 AI-based **PO matching with NLP**  
 - 📊 **Dashboard for analytics & reporting**  
-- 🔄 **Multi-cloud compatibility (Azure & AWS RDS)**
 - 📧 **Email monitoring with RPA** 
 
 ---
@@ -67,12 +66,13 @@ pip install -r requirements.txt
 Set up your .env file inside the project root with:
 
 ```
-EMAIL_USER=<your-email>
-EMAIL_PASSWORD=<your-app-password>
-IMAP_SERVER=<your-imap-server>
-SQL_SERVER=<azure-sql-server-url>
-SQL_USER=<db-username>
-SQL_PASSWORD=<db-password>
+AZURE_DB_SERVER = "db-server"
+AZURE_DB_DATABASE = "db-name"
+AZURE_DB_USERNAME = "db-username"
+AZURE_DB_PASSWORD = "db-password"
+EMAIL_USER = "user-email"
+EMAIL_PASS = "app-password"
+IMAP_SERVER = "imap server address for example: Gamil: "imap.gmail.com""
 ```
 
 ## 🏗️ Project Structure
